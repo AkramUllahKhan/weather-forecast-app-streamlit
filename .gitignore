@@ -2,7 +2,7 @@
 env/
 venv/
 ENV/
-
+.env
 # Ignore test and assets folder if they are not required in the repo
 test/
 assets/
