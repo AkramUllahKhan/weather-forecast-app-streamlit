@@ -1,7 +1,3 @@
-# Weather Forecast App
-
-![Weather App Banner](https://your-image-url)
-
 ## 🌤️ Weather Forecast App with Streamlit
 
 The **Weather Forecast App** provides real-time current weather conditions and 5-day weather forecasts for cities worldwide. Built using Python, Streamlit, and OpenWeatherMap API, this application displays dynamic weather data and allows users to visualize forecasts through interactive bar and line graphs.
@@ -73,14 +69,6 @@ The **Weather Forecast App** provides real-time current weather conditions and 5
 ### 🌍 API Integration
 
 The app fetches real-time weather data from [OpenWeatherMap API](https://openweathermap.org/). You need an API key to access weather data, which should be stored in a `.env` file as shown above.
-
----
-
-### 🎨 Screenshots
-
-![Current Weather Screenshot](https://your-image-url)
-
-![5-Day Forecast Graph Screenshot](https://your-image-url)
 
 ---
 
