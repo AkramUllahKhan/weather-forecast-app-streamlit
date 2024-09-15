@@ -86,7 +86,7 @@ For any inquiries, feel free to reach out:
 
 - **Email**: [akramullahkhan05@gmail.com](mailto:akramullahkhan05@gmail.com)
 - **GitHub**: [AkramUllahKhan](https://github.com/AkramUllahKhan)
-- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/akram-ullah-97122014b/)
+- **LinkedIn**: [AkramUllah](https://www.linkedin.com/in/akram-ullah-97122014b/)
 
 ---
 
