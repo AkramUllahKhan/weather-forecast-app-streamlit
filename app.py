@@ -2,12 +2,12 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
 from weather_service import get_weather_data, get_forecast_data, process_forecast_data
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 import datetime  
 
 # Load environment variables from .env file
-load_dotenv()
+#load_dotenv()
 
 # Set page configuration
 st.set_page_config(page_title="Weather Dashboard", page_icon=":sunny:")
@@ -23,9 +23,9 @@ def main():
     city_name = st.sidebar.text_input("Enter City Name", "New York")
     # Dropdown for selecting graph type
     graph_type = st.sidebar.radio("Select Graph Type", ["Bar Graph", "Line Graph"])
-
-    api_key = os.getenv("WEATHER_API_KEY")
-
+    
+    api_key = st.secrets["general"]["WEATHER_API_KEY"]
+    
     if city_name:
         try:
             weather_data = get_weather_data(city_name, api_key)
