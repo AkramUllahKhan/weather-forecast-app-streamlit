@@ -6,6 +6,9 @@ ENV/
 # Ignore test and assets folder if they are not required in the repo
 test/
 assets/
+# Ignore Streamlit secrets file
+.streamlit/secrets.toml
+
 
 # Ignore system files
 .DS_Store
